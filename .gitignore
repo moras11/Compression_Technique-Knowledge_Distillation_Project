@@ -1,0 +1,25 @@
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# === Model files ===
+*.pth
+*.pt
+models/
+Cifar10/models/
+celebA/models/
+
+# === Datasets / logs ===
+data/
+dataset/
+logs/
+outputs/
+
+# === System / IDE ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
